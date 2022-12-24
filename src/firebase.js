@@ -17,12 +17,12 @@ import {
   addDoc,
 } from "firebase/firestore";
 const firebaseConfig = {
-    apiKey: "AIzaSyBw3P9ZTdYQG3z9D2rUx4SEIij11iAJBWw",
-    authDomain: "whatapps-chatbot.firebaseapp.com",
-    projectId: "whatapps-chatbot",
-    storageBucket: "whatapps-chatbot.appspot.com",
-    messagingSenderId: "885830890295",
-    appId: "1:885830890295:web:b8f9add086a3c475f920b2"
+    apiKey: "...",
+    authDomain: "...",
+    projectId: "...",
+    storageBucket: "...",
+    messagingSenderId: "...",
+    appId: "..."
 };
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
